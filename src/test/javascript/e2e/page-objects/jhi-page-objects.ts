@@ -54,7 +54,6 @@ export class NavBarPage {
   }
 
   async clickOnAdmin(entityName: string): Promise<void> {
-    //await element(by.css('[routerLink="admin/' + entityName + '"]')).click();
     await element(by.css('[routerLink="entityName + '"]')).click();
   }
 
