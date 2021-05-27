@@ -70,4 +70,4 @@ jobs:
           
       # Runs a set of commands using the runners shell
       - name: auto-deploy(?)
-        run: mvnw -ntp com.heroku.sdk:heroku-maven-plugin:2.0.5:deploy -DskipTests -Pprod -Dheroku.buildpacks=heroku/jvm -Dheroku.appName=heroku-test-etienne67
+        run: ./mvnw -ntp com.heroku.sdk:heroku-maven-plugin:2.0.5:deploy -DskipTests -Pprod -Dheroku.buildpacks=heroku/jvm -Dheroku.appName=heroku-test-etienne67
